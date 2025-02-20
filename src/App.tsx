@@ -20,6 +20,8 @@ function App() {
             <Route path="/play/precision" element={<Game mode="precision" />} />
             <Route path="/play/reflex" element={<Game mode="reflex" />} />
             <Route path="/play/moving" element={<Game mode="moving" />} />
+            <Route path="/play/tracking" element={<Game mode="tracking" />} />
+            <Route path="/play/doubleshot" element={<Game mode="doubleshot" />} />
             {/* 默认游戏模式 */}
             <Route path="/play" element={<Navigate to="/play/challenge" replace />} />
             {/* 页面路由 */}

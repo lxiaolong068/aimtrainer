@@ -48,22 +48,28 @@ function Home() {
             to="/play/challenge"
           />
           <GameMode
-            title="Precision Training"
-            icon={Crosshair}
-            description="Focus on accuracy with stationary targets of varying sizes."
-            to="/play/precision"
-          />
-          <GameMode
-            title="Reflex Training"
-            icon={Zap}
-            description="Improve your reaction time with quick-appearing targets."
-            to="/play/reflex"
+            title="Target Tracking"
+            icon={MousePointer2}
+            description="Improve your target tracking ability and aim accuracy through continuous target following."
+            to="/play/tracking"
           />
           <GameMode
             title="Moving Targets"
             icon={MousePointer2}
             description="Practice tracking and leading shots with moving targets."
             to="/play/moving"
+          />
+          <GameMode
+            title="Precision Training"
+            icon={Target}
+            description="Enhance your precise aiming ability and stability through small target training."
+            to="/play/precision"
+          />
+          <GameMode
+            title="Doubleshot Training"
+            icon={Target}
+            description="Improve your multi-target aiming ability with simultaneously appearing targets."
+            to="/play/doubleshot"
           />
         </div>
       </div>
