@@ -85,17 +85,17 @@ function Home() {
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8">Supported Games</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/counter-strike/counter-strike.png" 
-               alt="CS:GO" 
+          <img src="/csgo.svg" 
+               alt="Counter-Strike: Global Offensive" 
                className="h-16 object-contain opacity-75 hover:opacity-100 transition-opacity" />
-          <img src="https://www.citypng.com/public/uploads/preview/fortnite-white-logo-transparent-png-11639741749e7elxjzm4g.png" 
+          <img src="/fortnite.svg" 
                alt="Fortnite" 
                className="h-16 object-contain opacity-75 hover:opacity-100 transition-opacity" />
-          <img src="https://media.contentapi.ea.com/content/dam/apex-legends/common/logos/apex-white-nav-logo.svg" 
-               alt="Apex Legends" 
+          <img src="/rainbow-6-siege.svg"
+               alt="Rainbow Six Siege"
                className="h-16 object-contain opacity-75 hover:opacity-100 transition-opacity" />
-          <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/449BBgnc3Q1ha2IN9rh3G/e1fb6147f6efa3220c419e85f5d44595/r6s-white-logo.svg" 
-               alt="Rainbow Six Siege" 
+          <img src="/apex-legends.svg" 
+               alt="Apex Legends" 
                className="h-16 object-contain opacity-75 hover:opacity-100 transition-opacity" />
         </div>
       </div>
@@ -111,17 +111,23 @@ function Home() {
       {/* Features */}
       <div>
         <h2 className="text-3xl font-bold mb-8">Why Choose Our Trainer?</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-[#1e2a3f] p-8 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Practice Like the Pros</h3>
             <p className="text-gray-400">
-              Our training modes are designed based on professional player routines, helping you develop the same skills that top players use in competitive play.
+              With Aim Trainer at your side and consistent practice, you'll improve your accuracy and aiming skills. The best eSport players in games like Overwatch, PUBG, Fortnite, and Call of Duty use similar training methods to hone their skills.
             </p>
           </div>
           <div className="bg-[#1e2a3f] p-8 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">Track Your Progress</h3>
+            <h3 className="text-xl font-semibold mb-4">Different Challenges</h3>
             <p className="text-gray-400">
-              Detailed statistics and progress tracking help you identify areas for improvement and measure your growth over time.
+              Our trainer features multiple specialized challenges, each designed to improve specific aspects of aiming. From reflex training to accuracy improvement and multi-target shooting, every mode is crafted to enhance your FPS gaming performance.
+            </p>
+          </div>
+          <div className="bg-[#1e2a3f] p-8 rounded-lg">
+            <h3 className="text-xl font-semibold mb-4">Custom Challenge</h3>
+            <p className="text-gray-400">
+              Take control of your training with our Custom Challenge Mode. Customize target frequency, speed progression, and life count to create a practice session that perfectly matches your specific needs and skill level.
             </p>
           </div>
         </div>
